@@ -1,12 +1,44 @@
+.btn {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 10px;
+}
 
-/* 
+.btn-danger.active {
+  box-shadow: 0 0 50px 17px rgb(255, 255, 199);
+}
+.btn-warning.active {
+  box-shadow: 0 0 50px 17px rgb(255, 255, 199);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.btn-success.active {
+  box-shadow: 0 0 50px 17px rgb(255, 255, 199);
+}
 
-*/
+.traffic-light{
+  background: black;
+  width: 130px;
+  height: 369px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.pole {
+  position: absolute;
+  bottom: 469px;
+  width: 10px;
+  height: 103px;;
+  background-color: black;
+}
